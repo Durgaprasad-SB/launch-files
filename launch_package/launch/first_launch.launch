@@ -1,0 +1,9 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="launch_package" type="node_launch_node_three.py" name="node_three"  output="screen">
+
+    </node>
+    <node pkg="launch_package" type="node_launch_node.py" name="node_four"  output="screen">
+
+    </node>
+</launch>
